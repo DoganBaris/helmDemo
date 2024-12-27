@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   dgn-backend:
   - apiVersion: v2
-    appVersion: 1.16.0
+    appVersion: "1.16.0"
     created: "2024-12-27T00:00:00.993341369Z"
     description: A Helm chart for Kubernetes
     digest: 32e1f5a8046ac0a3d0adc4e1e9cebe09d23212667873cfe9a0c14e6d5d91af50
@@ -10,6 +10,5 @@ entries:
     type: application
     urls:
     - https://raw.githubusercontent.com/DoganBaris/helmdemodgn.github.io/main/dgn-backend-0.1.0.tgz
-    version: 0.1.0
-  kind: Chart
+    version: "0.1.0"
 generated: "2024-12-27T00:00:00.992087268Z"
