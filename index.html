@@ -1,37 +1,125 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>dgn-helm-chart</title>
-<meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="dgn-helm-chart" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://doganbaris.github.io/helmdemodgn.github.io/" />
-<meta property="og:url" content="https://doganbaris.github.io/helmdemodgn.github.io/" />
-<meta property="og:site_name" content="dgn-helm-chart" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="dgn-helm-chart" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"dgn-helm-chart","name":"dgn-helm-chart","url":"https://doganbaris.github.io/helmdemodgn.github.io/"}</script>
+  <title>dgn-helm-chart</title>
+  <meta name="generator" content="Jekyll v3.9.5" />
+  <meta property="og:title" content="dgn-helm-chart" />
+  <meta property="og:locale" content="en_US" />
+  <link rel="canonical" href="https://doganbaris.github.io/helmdemodgn.github.io/" />
+  <meta property="og:url" content="https://doganbaris.github.io/helmdemodgn.github.io/" />
+  <meta property="og:site_name" content="dgn-helm-chart" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="dgn-helm-chart" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","headline":"dgn-helm-chart","name":"dgn-helm-chart","url":"https://doganbaris.github.io/helmdemodgn.github.io/"}
+  </script>
 
+  <style>
+    /* Temel stiller (okunabilirlik ve duyarlılık için) */
+    body {
+      font-family: sans-serif; /* Daha modern bir font */
+      margin: 20px; /* Kenarlardan boşluk */
+      line-height: 1.6;
+      color: #333; /* Daha okunabilir metin rengi */
+      background-color: #f8f8f8; /* Hafif arka plan rengi */
+    }
 
+    .container-lg {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white; /* İçerik için beyaz arka plan */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+      border-radius: 8px; /* Köşeleri yuvarlaklaştır */
+    }
 
+    h1, h2, h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #222; /* Başlıklar için daha koyu renk */
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+
+    a {
+      color: #007bff; /* Bağlantı rengi (mavi) */
+      text-decoration: none;
+      transition: color 0.3s ease; /* Renk geçişi */
+    }
+
+    a:hover {
+      color: #0056b3; /* Fare üzerine gelince daha koyu mavi */
+      text-decoration: underline;
+    }
+     ul {
+        list-style-type: none; /* Noktaları kaldırır */
+        padding: 0;
+    }
+    li {
+        margin-bottom: 0.5em; /* Liste öğeleri arasında boşluk */
+    }
+
+    /* Helm bölümü için özel stil */
+    .helm-section {
+      border-left: 5px solid #007bff;
+      padding-left: 1rem;
+      margin-top: 1rem;
+      background-color: #e9f2fb; /* Açık mavi arka plan */
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .code-snippet {
+      font-family: monospace;
+      background-color: #f0f0f0;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      overflow-x: auto; /* Yatay kaydırma çubuğu ekler */
+      white-space: pre; /* Metnin satır atlamasını engeller */
+    }
+
+    /* Mobil uyumluluk için */
+    @media (max-width: 768px) {
+      .container-lg {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="https://doganbaris.github.io/helmdemodgn.github.io/">dgn-helm-chart</a></h1>
-      <h1><a href="https://doganbaris.github.io/helmdemodgn.github.io/index.yaml">dgn-helm-chart index.yaml</a></h1>
-      <h1><a href="https://doganbaris.github.io/helmdemodgn.github.io/dgn-backend-0.1.0.tgz">dgn-helm-chart .tgz</a></h1>
-      <h1>Helm</h1>
+<body>
+  <div class="container-lg">
+    <h1><a href="https://doganbaris.github.io/helmdemodgn.github.io/">dgn-helm-chart</a></h1>
 
+    <h2>Available Resources</h2>
+    <ul>
+        <li><a href="https://doganbaris.github.io/helmdemodgn.github.io/">dgn-helm-chart</a></li>
+        <li><a href="https://doganbaris.github.io/helmdemodgn.github.io/index.yaml">dgn-helm-chart index.yaml</a></li>
+        <li><a href="https://doganbaris.github.io/helmdemodgn.github.io/dgn-backend-0.1.0.tgz">dgn-helm-chart .tgz</a></li>
+    </ul>
 
-      
+    <div class="helm-section">
+        <h3>Helm</h3>
+        <p>If you want to add the repo, you can do it as follows:</p>
+        <div class="code-snippet">
+            <pre><code>helm repo add dgn-backend https://doganbaris.github.io/helmdemodgn.github.io</code></pre>
+        </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
